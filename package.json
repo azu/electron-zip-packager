@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/electron-zip-packager/issues"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper of electron-packager. Package your electron app and zipped!",
   "main": "lib/archive-zip.js",
   "bin": {
@@ -20,8 +20,7 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "archiver": "^0.14.4",
     "electron-packager": "^5.0.1",
