@@ -13,6 +13,11 @@
   },
   "version": "1.0.1",
   "description": "A wrapper of electron-packager. Package your electron app and zipped!",
+  "keywords": [
+    "electron",
+    "zip",
+    "package"
+  ],
   "main": "lib/archive-zip.js",
   "bin": {
     "electron-zip-packager": "bin/cmd.js"
