@@ -1,0 +1,30 @@
+{
+  "name": "electron-zip-packager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/electron-zip-packager.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/electron-zip-packager",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/electron-zip-packager/issues"
+  },
+  "version": "1.0.0",
+  "description": "A wrapper of electron-packager. Package your electron app and zipped!",
+  "main": "lib/archive-zip.js",
+  "bin": {
+    "electron-zip-packager": "bin/cmd.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "archiver": "^0.14.4",
+    "electron-packager": "^5.0.1",
+    "minimist": "^1.1.2"
+  }
+}
