@@ -34,7 +34,7 @@ packager(args, function done(err, appPaths) {
     }
 
     var zippedPromises = appPaths.map(function (appPath) {
-        console.log(appPath);
+        console.log(appPath + ".zip");
         return archive(appPath, appPath + ".zip");
     });
     Promise.all(zippedPromises).then(function () {
