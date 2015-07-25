@@ -25,7 +25,9 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "(cd example && npm run dist)"
+  },
   "dependencies": {
     "archiver": "^0.14.4",
     "electron-packager": "^5.0.1",
