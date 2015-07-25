@@ -19,6 +19,10 @@
     "package"
   ],
   "main": "lib/archive-zip.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
   "bin": {
     "electron-zip-packager": "bin/cmd.js"
   },
