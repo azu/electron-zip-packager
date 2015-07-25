@@ -30,7 +30,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "(cd example && npm install && npm run dist)"
+    "travis-test": "(cd example && npm install && npm run dist)"
   },
   "dependencies": {
     "archiver": "^0.14.4",
