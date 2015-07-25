@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/electron-zip-packager/issues"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A wrapper of electron-packager. Package your electron app and zipped!",
   "keywords": [
     "electron",
