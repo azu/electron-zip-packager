@@ -4,6 +4,8 @@ A wrapper of [electron-packager](https://github.com/maxogden/electron-packager "
 
 Package your electron app and **zipped**!
 
+For NW.js: [azu/nw-zip-builder](https://github.com/azu/nw-zip-builder "azu/nw-zip-builder")
+
 ## Installation
 
     npm install -g electron-zip-packager
