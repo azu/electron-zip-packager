@@ -4,8 +4,6 @@ var args = require('minimist')(process.argv.slice(2), {boolean: ['prune', 'asar'
 var archive = require("../lib/archive-zip");
 var packager = require('electron-packager');
 var path = require("path");
-var usage = fs.readFileSync(path.normalize(__dirname + '/../node_modules/electron-packager/usage.txt')).toString();
-
 args.dir = args._[0];
 args.name = args._[1];
 
@@ -16,11 +14,6 @@ if (protocolSchemes && protocolNames && protocolNames.length === protocolSchemes
     args.protocols = protocolSchemes.map(function (scheme, i) {
         return {schemes: [scheme], name: protocolNames[i]}
     })
-}
-
-if (!args.dir || !args.name || !args.version || (!args.all && (!args.platform || !args.arch))) {
-    console.error(usage);
-    process.exit(1);
 }
 
 packager(args, function done(err, appPaths) {
