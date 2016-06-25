@@ -33,8 +33,8 @@
     "travis-test": "(cd example && npm install && npm run dist)"
   },
   "dependencies": {
-    "archiver": "^0.14.4",
-    "electron-packager": "^5.0.1",
-    "minimist": "^1.1.2"
+    "archiver": "^1.0.0",
+    "electron-packager": "^7.1.0",
+    "minimist": "^1.2.0"
   }
 }
