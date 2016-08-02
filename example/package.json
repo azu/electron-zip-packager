@@ -4,11 +4,12 @@
   "description": "example of electron zip",
   "main": "index.js",
   "scripts": {
-    "dist": "electron-zip-packager ./ video-transcript-note --platform=all --arch=all --version=1.2.5"
+    "dist": "electron-zip-packager ./ video-transcript-note --platform=all --arch=all"
   },
   "author": "azu",
   "license": "MIT",
   "dependencies": {
-    "electron-zip-packager": "file:.."
+    "electron-zip-packager": "file:..",
+    "electron": "^1.3.3"
   }
 }
