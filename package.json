@@ -34,7 +34,11 @@
   },
   "dependencies": {
     "archiver": "^1.0.1",
+<<<<<<< HEAD
     "electron-packager": "^7.6.0",
+=======
+    "electron-packager": "^7.5.1",
+>>>>>>> upstream/master
     "minimist": "^1.2.0"
   }
 }
