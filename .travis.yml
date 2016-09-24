@@ -2,8 +2,9 @@ sudo: required
 dist: trusty
 language: node_js
 before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y wine xvfb
+- sudo dpkg --add-architecture i386
+- sudo apt-get update
+- sudo apt-get install -y wine
 
 install:
 - export DISPLAY=':99.0'
