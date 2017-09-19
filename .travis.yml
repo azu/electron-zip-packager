@@ -1,14 +1,8 @@
-sudo: required
-dist: trusty
 language: node_js
 before_install:
 - sudo dpkg --add-architecture i386
 - sudo apt-get update
 - sudo apt-get install -y -qq wine
-- sudo apt-key adv --fetch-keys http://dl.yarnpkg.com/debian/pubkey.gpg
-- echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-- sudo apt-get update -qq
-- sudo apt-get install -y -qq yarn
 
 install:
 - yarn install
@@ -20,4 +14,5 @@ node_js:
 - '5'
 - '6'
 - '7'
+- '8'
 script: npm run travis-test
